@@ -9,7 +9,7 @@ description = "Stratified dataset splitting via UMAP-based pseudo-labels"
 readme = "README.md"
 license = {file = "LICENSE"}
 authors = [
-  { name="Your Name", email="you@example.com" },
+  { name="Bilal Qureshi, M.Sc.", email="bilal.qureshi@outlook.de" },
 ]
 keywords = ["umap", "stratification", "pytorch", "dataset", "split"]
 classifiers = [
@@ -22,11 +22,13 @@ dependencies = [
   "umap-learn>=0.5",
   "scikit-learn>=1.0",
   "torch>=1.9",
+  "matplotlib>=3.3",         # for plotting examples
+  "pytest>=6.0",             # for tests
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/bilalqur/umap-stratified-split"
-"Documentation" = "https://github.com/bilalqur/umap-stratified-split/docs"
+Homepage = "https://github.com/bilalqur/umap-stratified-split"
+Documentation = "https://github.com/bilalqur/umap-stratified-split/docs"
 "Issue Tracker" = "https://github.com/bilalqur/umap-stratified-split/issues"
 
 [tool.setuptools.packages.find]
