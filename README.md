@@ -1,4 +1,4 @@
-# umap-stratified-split
+# UMAP-Stratified Dataset Split
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 > Stratified dataset splitting via UMAP‑based pseudo‑labels  
 > A drop‑in alternative to `torch.utils.data.random_split` that ensures each split preserves the manifold structure of your data.
