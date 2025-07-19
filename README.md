@@ -59,8 +59,8 @@ Avoid using this method if:
 
 ## 📚 References
 
-[1] McInnes, L., Healy, J., & Melville, J. (2018). *UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction*. arXiv preprint [arXiv:1802.03426](https://arxiv.org/abs/1802.03426)
-[2] Official UMAP implementation: https://github.com/lmcinnes/umap
+1. McInnes, L., Healy, J., & Melville, J. (2018). *UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction*. arXiv preprint [arXiv:1802.03426](https://arxiv.org/abs/1802.03426)
+2. Official UMAP implementation: https://github.com/lmcinnes/umap
 
 ---
 
