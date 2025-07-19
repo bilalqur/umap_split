@@ -66,17 +66,25 @@ Avoid using this method if:
 
 ## 🔧 Installation
 
+### ✅ Recommended (fast & modern):
+
 ```bash
-# install latest from PyPI
-pip install umap-stratified-split
+# Install via uv (recommended)
+uv pip install umap-stratified-split
+```
 
-# or install editable from GitHub
-pip install git+https://github.com/bilalqur/umap-stratified-split.git#egg=umap-stratified-split
+### 🛠️ From GitHub (latest main):
 
-# or locally in editable/develop mode
+```bash
+uv pip install git+https://github.com/bilalqur/umap-stratified-split.git#egg=umap-stratified-split
+```
+
+### 🧪 Local development mode:
+
+```bash
 git clone https://github.com/bilalqur/umap-stratified-split.git
 cd umap-stratified-split
-pip install -e .
+uv pip install -e .
 ```
 
 ---
