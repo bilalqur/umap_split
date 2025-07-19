@@ -1,4 +1,4 @@
-# UMAP-Stratified Dataset Split
+# UMAP-Stratified Validation Dataset Split
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 > Stratified validation dataset splitting via UMAP‑based pseudo‑labels. A drop‑in alternative to `torch.utils.data.random_split` that ensures each split preserves the manifold structure of your data.
 
