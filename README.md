@@ -16,7 +16,7 @@ This approach is grounded in the assumption that your dataset lies on a meaningf
 
 This method builds on the foundation laid by the UMAP algorithm:
 
-> **Uniform Manifold Approximation and Projection (UMAP)** is a general-purpose nonlinear dimension reduction technique. Its core idea is to construct a graph-based fuzzy topological representation of data, then optimize a low-dimensional embedding that preserves local neighborhood structure.
+> **Uniform Manifold Approximation and Projection (UMAP)** is a general-purpose nonlinear dimension reduction technique. Its core idea is to construct a graph-based fuzzy topological representation of data, then optimize a low-dimensional embedding that preserves local neighborhood structure [1].
 
 UMAP relies on the following assumptions:
 
@@ -24,7 +24,7 @@ UMAP relies on the following assumptions:
 2. **The Riemannian metric is locally constant** (or approximately so)
 3. **The manifold is locally connected**
 
-These assumptions allow UMAP to build a reliable low-dimensional embedding that captures meaningful cluster and density information.
+These assumptions allow UMAP to build a reliable low-dimensional embedding that captures meaningful cluster and density information [2].
 
 By clustering the UMAP embedding and stratifying across those clusters, this package provides a principled way to sample validation and training sets that are *representative of the entire data manifold*.
 
@@ -59,8 +59,8 @@ Avoid using this method if:
 
 ## 📚 References
 
-- McInnes, L., Healy, J., & Melville, J. (2018). *UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction*. arXiv preprint [arXiv:1802.03426](https://arxiv.org/abs/1802.03426)
-- Official UMAP implementation: https://github.com/lmcinnes/umap
+[1] McInnes, L., Healy, J., & Melville, J. (2018). *UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction*. arXiv preprint [arXiv:1802.03426](https://arxiv.org/abs/1802.03426)
+[2] Official UMAP implementation: https://github.com/lmcinnes/umap
 
 ---
 
