@@ -11,6 +11,7 @@ __pycache__/
 
 # Data files
 examples/data/
+data/
 
 # PyTorch checkpoints / training logs
 *.pt
@@ -49,3 +50,6 @@ Thumbs.db
 # Local config
 *.local
 *.env
+
+# UV files
+uv.lock

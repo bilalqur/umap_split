@@ -7,23 +7,30 @@ name = "umap-stratified-split"
 version = "0.1.0"
 description = "Stratified dataset splitting via UMAP-based pseudo-labels"
 readme = "README.md"
-license = {file = "LICENSE"}
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+
 authors = [
-  { name="Bilal Qureshi, M.Sc.", email="bilal.qureshi@outlook.de" },
+  { name = "Bilal Qureshi, M.Sc.", email = "bilal.qureshi@outlook.de" },
 ]
+
 keywords = ["umap", "stratification", "pytorch", "dataset", "split"]
+
 classifiers = [
   "Programming Language :: Python :: 3",
   "License :: OSI Approved :: MIT License",
   "Operating System :: OS Independent",
 ]
+
 dependencies = [
   "numpy>=1.20",
-  "umap-learn>=0.5",
+  "umap-learn>=0.5.4,<0.6",
+  "numba>=0.55",
   "scikit-learn>=1.0",
   "torch>=1.9",
-  "matplotlib>=3.3",         # for plotting examples
-  "pytest>=6.0",             # for tests
+  "torchvision>=0.10",
+  "matplotlib>=3.3",
+  "pytest>=6.0",
 ]
 
 [project.urls]
