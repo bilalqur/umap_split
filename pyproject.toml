@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "umap-stratified-split"
+version = "0.1.0"
+description = "Stratified dataset splitting via UMAP-based pseudo-labels"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+  { name="Your Name", email="you@example.com" },
+]
+keywords = ["umap", "stratification", "pytorch", "dataset", "split"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "numpy>=1.20",
+  "umap-learn>=0.5",
+  "scikit-learn>=1.0",
+  "torch>=1.9",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/bilalqur/umap-stratified-split"
+"Documentation" = "https://github.com/bilalqur/umap-stratified-split/docs"
+"Issue Tracker" = "https://github.com/bilalqur/umap-stratified-split/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["umap_stratified_split*"]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = ["tests"]

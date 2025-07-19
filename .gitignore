@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+examples/data/
+
+# PyTorch checkpoints / training logs
+*.pt
+*.pth
+*.log
+
+# Test cache
+.cache/
+pytest_cache/
+
+# VSCode & PyCharm IDE settings
+.vscode/
+.idea/
+
+# Packaging
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.env/
+.envrc
+.venv/
+pip-wheel-metadata/
+
+# Pytest coverage reports
+htmlcov/
+coverage.xml
+*.cover
+
+# Mac & Unix OS junk
+.DS_Store
+Thumbs.db
+
+# Local config
+*.local
+*.env
