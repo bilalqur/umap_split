@@ -10,8 +10,7 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Data files
-examples/data/
-data/
+**/data/
 
 # PyTorch checkpoints / training logs
 *.pt
